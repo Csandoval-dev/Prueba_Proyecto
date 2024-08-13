@@ -1,0 +1,10 @@
+# procesos.py
+class Proceso:
+    def __init__(self, id, tiempo_llegada, tiempo_rafaga, prioridad):
+        self.id = id
+        self.tiempo_llegada = tiempo_llegada
+        self.tiempo_rafaga = tiempo_rafaga
+        self.prioridad = prioridad
+        self.tiempo_inicio = None
+        self.tiempo_finalizacion = None
+        self.estado = 'Listo'
